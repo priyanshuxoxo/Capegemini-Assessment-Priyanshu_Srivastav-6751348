@@ -4,6 +4,6 @@ test("task2",async({page})=>{
     await page.locator("//button[@id='onetrust-accept-btn-handler']").click();
     await page.locator("//a[@id='lrd9']").hover();
     await page.waitForTimeout(3000)
-    await page.locator("//img[@src='https://static5.lenskart.com/media/uploads/bengalore-210126.png']").click()
+    await page.locator("//img[@src='https://static5.lenskart.com/media/uploads/bengalore-210126.png']").hover()
     await page.screenshot({path:"./screenshots/lenskartTask.png"})
 })
