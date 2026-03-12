@@ -14,10 +14,5 @@ test("dropdown scenerio",async({page})=>{
     expect(text).toContain("Remove")
     const cartSize=await page.locator("//a[@data-test='shopping-cart-link']/child::span").textContent()
     expect(cartSize).toContain("1")
-
     await page.screenshot({path:"./screenshots/sortedProductsScenerio.png"})
-
-
-
-
 })
