@@ -1,7 +1,7 @@
 class Amazon{
     secondPage:any;
     page:any;
-    careerLNK:any;
+    careerLNK:any;  
     studentOpportunityBTN:any;
     findRolesBTN:any;
     countryBTN:any;;
